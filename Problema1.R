@@ -35,3 +35,7 @@ pie(fi)
 Ni = cumsum(ni)
 Fi = cumsum(fi)
 cbind(ni, fi, Ni, Fi)
+
+#rango interquartilico -> IQR
+IQR(mis_dades$cyl)
+boxplot(mis_dades$cyl)
