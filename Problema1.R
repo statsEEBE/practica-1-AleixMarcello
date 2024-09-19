@@ -48,3 +48,9 @@ IQR(mis_dades$cyl)
 boxplot(mis_dades$cyl)
 
 #Pregunta6
+#desviación típica(que tan disperso estan los datos respecto a la media) -> sd()
+sd(mis_dades$cyl)
+
+#Pregunta7
+#Varianza corregida -> var
+var(mis_dades$qsec)
