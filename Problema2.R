@@ -3,3 +3,6 @@
 rm(list=ls())
 data = mtcars
 hist(data$mpg)
+
+
+    
